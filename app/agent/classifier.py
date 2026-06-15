@@ -52,8 +52,13 @@ CATEGORY_TERMS = {
         "cesante",
         "subsidio",
         "sin trabajo",
+        "sin empleo",
         "perdí el empleo",
         "perdi el empleo",
+        "perdí mi empleo",
+        "perdi mi empleo",
+        "quedé sin empleo",
+        "quede sin empleo",
     },
     "child_services": {
         "niño",
