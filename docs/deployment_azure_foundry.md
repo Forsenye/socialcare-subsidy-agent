@@ -41,3 +41,14 @@ azd deploy
 ```
 
 Do not run deployment commands until subscription, region, quotas, identity, network, and secret-management decisions are approved.
+
+## Official references checked
+
+- Microsoft Learn: Hosted agents in Foundry Agent Service (preview)
+  <https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents>
+- Microsoft Learn: What is Microsoft Foundry Agent Service?
+  <https://learn.microsoft.com/en-us/azure/foundry/agents/overview>
+- Microsoft Learn: Quickstart to deploy a hosted agent
+  <https://learn.microsoft.com/en-us/azure/foundry/agents/quickstarts/quickstart-hosted-agent>
+- Microsoft Learn: Azure Developer CLI AI agent extension
+  <https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/extensions/azure-ai-foundry-extension>
