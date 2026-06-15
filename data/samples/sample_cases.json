@@ -1,0 +1,20 @@
+[
+  {
+    "id": "case-001",
+    "message": "Perdí mi empleo y quiero saber qué documentos generales debo revisar.",
+    "expected_category": "unemployment_subsidy",
+    "expected_risk_level": "medium"
+  },
+  {
+    "id": "case-002",
+    "message": "Necesito orientación para servicios de mi hijo pequeño.",
+    "expected_category": "child_services",
+    "expected_risk_level": "low"
+  },
+  {
+    "id": "case-003",
+    "message": "Hay posible maltrato a un menor y necesito ayuda urgente.",
+    "expected_category": "child_services",
+    "expected_risk_level": "high"
+  }
+]
