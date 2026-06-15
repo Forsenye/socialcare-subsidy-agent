@@ -22,8 +22,13 @@ data/audit/*.csv
 # IDE and OS
 .idea/
 .vscode/
+.vscode/settings.json
 .DS_Store
 Thumbs.db
+*.log
+
+# Azure local deployment state
+.azure/
 
 # Build outputs
 dist/
