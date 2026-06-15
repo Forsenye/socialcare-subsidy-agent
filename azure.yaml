@@ -1,0 +1,13 @@
+name: socialcare-subsidy-agent
+metadata:
+  template: socialcare-subsidy-agent@0.1.0
+services:
+  api:
+    project: .
+    language: py
+    host: containerapp
+    docker:
+      path: Dockerfile
+infra:
+  provider: bicep
+  path: infra

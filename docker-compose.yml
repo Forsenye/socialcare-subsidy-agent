@@ -1,0 +1,19 @@
+services:
+  api:
+    build: .
+    env_file:
+      - .env.example
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/audit:/workspace/data/audit
+
+  streamlit:
+    build: .
+    command: streamlit run app/ui/streamlit_app.py --server.address 0.0.0.0 --server.port 8501
+    env_file:
+      - .env.example
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data/audit:/workspace/data/audit
