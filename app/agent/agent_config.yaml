@@ -1,0 +1,14 @@
+name: SocialCare Subsidy Agent
+version: 0.1.0
+language: es
+mode: local-prototype
+rag:
+  provider: local_markdown
+  path: data/kb
+foundry:
+  project_endpoint_env: FOUNDRY_PROJECT_ENDPOINT
+  model_deployment_env: AZURE_OPENAI_DEPLOYMENT
+safety:
+  human_handoff_for_risk_levels:
+    - high
+  simulated_data_only: true
