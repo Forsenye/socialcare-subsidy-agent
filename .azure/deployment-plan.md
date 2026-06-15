@@ -1,6 +1,6 @@
 # SocialCare Subsidy Agent Deployment Plan
 
-Status: Draft
+Status: Ready for Validation
 
 ## Scope
 - Create a local-first professional prototype for SocialCare Subsidy Agent.
@@ -31,8 +31,8 @@ Status: Draft
 - No SDK-specific Foundry implementation unless the current API is confirmed.
 
 ## Validation
-- ruff check .
-- pytest
+- python -m ruff check .
+- python -m pytest
 - python -m compileall app
 - FastAPI import and route availability
 
